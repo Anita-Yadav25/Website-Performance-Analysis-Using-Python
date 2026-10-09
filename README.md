@@ -1,10 +1,12 @@
 # Website Performance Analysis Using Python
 
 ## Project Overview
-This project analyzes website performance data using Python to understand traffic patterns, acquisition channel performance, and user engagement. 
+In this project I have analyzed website performance data using Python to understand traffic patterns, acquisition channel performance, and user engagement. 
 The objective is to identify traffic trends and provide data-driven recommendations for improving website engagement.
 
-## Objectives
+## Business Objectives
+The stakeholder wanted to:-
+
 - Analyze website traffic across acquisition channels.
 - Compare engaged and non-engaged sessions.
 - Evaluate engagement rates across channels.
@@ -12,6 +14,7 @@ The objective is to identify traffic trends and provide data-driven recommendati
 - Generate actionable business insights using Python visualizations.
 
 ## Dataset
+
 - **Records:** 3,182
 - **Period:** April 6 – May 3, 2024
 - **Key metrics:** Users, Sessions, Engaged Sessions, Engagement Rate, Events per Session, and Event Count.
@@ -19,6 +22,7 @@ The objective is to identify traffic trends and provide data-driven recommendati
 
 
 ## Tools and Libraries
+
 - Python
 - Pandas
 - NumPy
