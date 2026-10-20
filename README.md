@@ -1,59 +1,21 @@
-# Website Performance Analysis Using Python
+## Website Performance Analysis Using Python
 
-## Project Overview
-In this project I have analyzed website performance data using Python to understand traffic patterns, acquisition channel performance, and user engagement. 
-The objective is to identify traffic trends and provide data-driven recommendations for improving website engagement.
+**S – Situation:**  
+Website performance data covering 3,182 records from April 6 to May 3, 2024, was analyzed to understand traffic patterns, acquisition channel performance, and user engagement.
 
-## Business Objectives
-The stakeholder wanted to:-
+**T – Task:**  
+Analyze website traffic across seven acquisition channels, evaluate engaged versus non-engaged sessions, identify engagement trends and peak traffic hours, and provide actionable recommendations to improve website performance.
 
-- Analyze website traffic across acquisition channels.
-- Compare engaged and non-engaged sessions.
-- Evaluate engagement rates across channels.
-- Identify hourly and time-based traffic patterns.
-- Generate actionable business insights using Python visualizations.
+**A – Action:**  
+- Used Python, Pandas, and NumPy for data inspection, preprocessing, and analysis.
+- Analyzed traffic distribution and engagement rates across acquisition channels.
+- Compared engaged and non-engaged sessions to assess user interaction.
+- Used Matplotlib and Seaborn to visualize hourly traffic patterns, time-based trends, and engagement metrics.
+- Evaluated channel performance to identify opportunities for website engagement optimization.
 
-## Dataset
-
-- **Records:** 3,182
-- **Period:** April 6 – May 3, 2024
-- **Key metrics:** Users, Sessions, Engaged Sessions, Engagement Rate, Events per Session, and Event Count.
-- **Channels:** Direct, Email, Organic Search, Organic Social, Organic Video, Referral, and Unassigned.
-
-
-## Tools and Libraries
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- Jupyter Notebook
-
-## Analysis Performed
-
-1. Data inspection and preprocessing
-2. Traffic analysis by acquisition channel
-3. Engaged vs. non-engaged session comparison
-4. Hourly traffic analysis using heatmaps
-5. Session and engagement-rate trends over time
-6. Business insights and recommendations
-
-## Key Findings
-
-- **Total sessions:** 162,895
-- **Engaged sessions:** 90,132
-- **Overall engagement rate:** 55.33%
-- **Top traffic channel:** Organic Social, contributing 37.22% of sessions
-- **Highest engagement rate among major channels:** Referral, at 66.64%
-- **Peak traffic hour:** 7 PM, with 9,129 sessions aggregated across the reporting period
-
-## Business Recommendations
-
-- Investigate Organic Social landing pages and downstream outcomes to assess traffic quality.
-- Examine referral sources to understand their relatively high engagement rate.
-- Review Direct traffic engagement and landing-page performance.
-
-## Conclusion
-This project demonstrates the use of Python for website traffic analysis, engagement measurement, time-based exploration, and data visualization. 
-It translates web performance metrics into insights that can support evidence-based website optimization.
+**R – Result:**  
+- Analyzed **162,895 sessions**, of which **90,132 were engaged**, achieving an overall engagement rate of **55.33%**.
+- Identified **Organic Social** as the leading traffic channel, contributing **37.22% of total sessions**.
+- Found that **Referral traffic had the highest engagement rate among major channels at 66.64%**.
+- Identified **7 PM** as the peak traffic hour, with **9,129 aggregated sessions**.
+- Recommended evaluating Organic Social landing-page performance, investigating high-engagement referral sources, and optimizing Direct traffic experiences to improve website engagement.
